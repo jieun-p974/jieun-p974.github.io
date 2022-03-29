@@ -1,15 +1,18 @@
 ---
 layout: post
 title:  "드디어 성공한 gitblog"
-date:   2022-03-29 22:37:00 +9000
+date:   2022-03-29 22:37:00 +0900
 categories: GitHub Jekyll
 ---
 최근 너무 게으르게 생활해서 스스로에게 변화를 주고자 시작한 100일 챌린지!  
 어디에 기록하면 좋을지 고민하다가 gitblog에 도전해봤다.  
 로컬에서는 잘 되던게 계속 github pages에 적용이 안되길래 엄청 당황했는데 생각보다 해결은 쉬웠다.  
 _config.yml 파일에서 기존의 theme는 주석처리하고 remote_theme를 적어주니까 해결되었다.
+
 ```
+
 # theme: plainwhite
 remote_theme: samarsault/plainwhite-jekyll
 ```    
-이래서 README를 꼼꼼하게 읽어야하나보다 이거 때문에 이틀동안 고민한게 무색하게도 깔끔하게 해결되었다.φ(゜▽゜*)♪
+이래서 README를 꼼꼼하게 읽어야하나보다 이거 때문에 이틀동안 고민한게 무색하게도 깔끔하게 해결되었다.  
+φ(゜▽゜*)♪
