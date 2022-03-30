@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "CSS rem, selector, cascade"
-date:   2022-03-29 21:27:00 +0900
+date:   2022-03-30 21:27:00 +0900
 categories: CSS bootcamp
 ---
-# Bootcamp(´▽`ʃ♡ƪ)
+## Bootcamp(´▽`ʃ♡ƪ)
 인터넷에서 무료 [bootcamp][boot-camp] 코스가 있길래 요즘 듣는 중인데 기본적인 html, css, js를 가르쳐주는 코스다.  
 영어로 진행한다고 해서 걱정했는데 생각보다 할만하다. 요즘 영어권 vlog를 많이 본 효과가 여기서...  
 
-## em과 rem
+### em과 rem
 - em 
 	- 상대적인 단위
 	- 상위 요소를 기준으로 하며 상위 요소 크기의 몇 배인지로 크기를 지정하는 단위
@@ -19,7 +19,7 @@ categories: CSS bootcamp
 	- 루트 요소인 html을 기준으로 하기 때문에 한 문서 안에서 1rem은 모두 같은 사이즈
 	- 상위 요소가 영향을 끼치지 않음
 
-## selector
+### selector
 - class
   - 태그 별로 스타일을 지정할 수도 있지만 같은 태그 내에서도 예외를 두고 싶을 때 사용
   - html 태그에서는 class="클래스명"으로 지정
@@ -54,7 +54,7 @@ categories: CSS bootcamp
 		}
 	```
 
-## cascade
+### cascade
 - html element는 하나 이상의 스타일에 영향을 받을 수 있기 때문에 어떤 스타일을 적용 받을지에 대해 우선순위가 필요
 - css가 어디에서 선언되었는지, 대상을 명확하게 지정했는지, 코드 순서에 따라 우선순위가 결정됨
 - html문서에서 style을 선언할 수도 있는데 이 경우를 embedded style이라고 부름
