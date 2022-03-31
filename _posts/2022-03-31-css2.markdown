@@ -7,6 +7,7 @@ categories: CSS bootcamp
 ## margin과 padding
 - margin과 padding은 border를 기준으로 생각하면 편함
 - border 안쪽이 padding, 바깥쪽이 margin
+
 ![예시2](https://user-images.githubusercontent.com/84063843/161060959-bdc85f7a-44d4-41cc-b7f5-d2c6145e7f64.png)
 
 ## div, section, article 태그의 차이
