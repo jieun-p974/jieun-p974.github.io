@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "CSS layout"
+date:   2022-03-29 22:02:00 +0900
+categories: CSS bootcamp
+---
+## margin과 padding
+- margin과 padding은 border를 기준으로 생각하면 편함
+- border 안쪽이 padding, 바깥쪽이 margin
+![예시2](https://user-images.githubusercontent.com/84063843/161060959-bdc85f7a-44d4-41cc-b7f5-d2c6145e7f64.png)
+
+## div, section, article 태그의 차이
+- div: 논리적 관계와는 상관없이 요소를 나눠야할 때 사용, 논리적 관계와는 상관없기 때문에 article과 section 어느 쪽의 내부에 정의되어도 이상하지 않음
+- section: 논리적으로 관계 있는 문서 혹은 요소를 분리할 때 사용
+- article: 문서 혹은 요소가 '독립적'으로 존재할 수 있을 때 사용, 독립적인 요소이기 때문에 section 태그 안에 들어가는 것이 어색함
+
+## block element와 inline element
+- block element
+  - 모든 inline element를 포함할 수 있으며 block element도 포함할 수 있음
+  - 너비, 높이, padding, margin으로 레이아웃을 수정할 수 있으며 block element가 끝나는 지점에서 자동 줄바꿈
+  - ul, li, ol, div, p, h1, h2 ...
+- inline element
+  - 다른 inline element를 포함할 수 있으며 컨텐츠가 끝나는 지점까지가 넓이
+  - 너비, 높이를 조절할 수 없음
+  - line-height, text-align을 할 수 있음
+  - 끝나는 지점에서 자동 줄바꿈이 없음
+  - a, img, span, strong ...
+- display 속성
+  - none: 화면에서 사라짐, 자리 차리도 안함
+  - block: 가로 한 줄을 다 차지하게 됨
+	```css
+	nav a {
+		background-color: yellow;
+		display: block;
+		/*content만 감싸던 배경색이 가로 한 줄을 감쌀 수 있게 됨*/
+	}
+	```
+	![예시사진](https://user-images.githubusercontent.com/84063843/161059009-1d2b6785-04fc-450a-b48b-b8cc40d6106b.png)
+  - inline: 컨텐츠를 딱 감쌀 정도의 크기가 되고 block과 다르게 줄바꿈이 되지 않고 크기변화 x
+  - inline-block: inline과 block의 특성을 합친 것으로 기본적으로 inline의 속성을 가지지만 임의로 크기변경이 가능해짐
+	```css
+	nav li{
+		text-align: center;
+		display: inline-block;
+	}
+	```
+
+## 사이즈를 고정하는 것을 추천하지 않는 이유
+- 다들 다양한 디바이스를 사용하고 있고 그에 따라 스크린 크기도 다양함
+- 컴퓨터 스크린을 기준으로 하면 스마트폰으로 볼때 반도 제대로 안보일 수 있음
+- flexible하게 만들어야함
+
+## 강의에서 추천하는 사이트들
+- color
+  - [어도비컬러(Adobe Color)][Adobe Color]: 색조합
+  - [컬러질라(ColorZilla)][ColorZilla]: chrome 확장자 원하는 색 코드 추출
+- code
+  - [codepen][code-pen]: 온라인 코드 편집기
+  - [CSS Validator][CSS-Validator]: CSS를 검토할 수 있는 서비스
+
+[code-pen]: https://codepen.io/
+[Adobe Color]: https://color.adobe.com/ko/create/color-wheel
+[ColorZilla]: https://www.colorzilla.com/
+[CSS-Validator]: https://jigsaw.w3.org/css-validator/
