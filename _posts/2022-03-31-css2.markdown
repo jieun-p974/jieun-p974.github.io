@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS layout"
-date:   2022-03-29 22:02:00 +0900
+date:   2022-03-31 22:02:00 +0900
 categories: CSS bootcamp
 ---
 ## margin과 padding
