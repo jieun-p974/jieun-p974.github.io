@@ -4,6 +4,7 @@ title:  "CSS layout"
 date:   2022-03-31 22:02:00 +0900
 categories: CSS bootcamp
 ---
+
 ## margin과 padding
 - margin과 padding은 border를 기준으로 생각하면 편함
 - border 안쪽이 padding, 바깥쪽이 margin
