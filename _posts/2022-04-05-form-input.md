@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "hidden, post/get, :not() 선택자"
 date:   2022-04-05 20:02:00 +0900
 categories: HTML CSS bootcamp
 ---
