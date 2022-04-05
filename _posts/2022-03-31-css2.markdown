@@ -5,6 +5,9 @@ date:   2022-03-31 22:02:00 +0900
 categories: CSS bootcamp
 ---
 
+오늘도 bootcamp강의를 이어 듣는 중이다. 생각보다 긴 여정이 될 듯하다.  
+그래도 까먹었던 부분과 기초를 다시 다지면서 영어 공부까지 할 수 있다는 점에서 매우 이득이다.
+
 ## margin과 padding
 - margin과 padding은 border를 기준으로 생각하면 편함
 - border 안쪽이 padding, 바깥쪽이 margin
