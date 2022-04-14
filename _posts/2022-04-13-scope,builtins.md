@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "scope, builtins, == 과 === 차이"
-date:   2022-04-12 20:50:30 +0900
+date:   2022-04-13 20:50:30 +0900
 categories: JavaScript bootcamp
 ---
 
