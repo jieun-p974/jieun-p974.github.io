@@ -2,7 +2,7 @@
 layout: post
 title:  "Looping Array"
 date:   2022-04-18 20:00:30 +0900
-categories: JavaScript bootcamp STUDY(TIL)
+categories: JavaScript bootcamp til
 ---
 
 기운차게 시작하는 월요일🌟  
