@@ -2,7 +2,7 @@
 layout: post
 title:  "JS .then(), CSS @keyframes"
 date:   2022-04-27 11:21:30 +0900
-categories: javascript bootcamp
+categories: CSS javascript bootcamp
 ---
 
 .then()함수 자주 보기는 했는데 항상 "대충 이런 느낌이지~" 하고 넘어가다가 오늘 갑자기 의문이 들었다.  

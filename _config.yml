@@ -21,8 +21,8 @@ plainwhite:
   portfolio_image: "assets/profile.jpg" # the path from the base directory of the site to the image to display (no / at the start)
   html_lang: "KR" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   navigation: 
-    - title: Resume
-      url: "/resume"
+    - title: Study
+      url: "/study"
   condensed_mobile:
     #- home
     - page
