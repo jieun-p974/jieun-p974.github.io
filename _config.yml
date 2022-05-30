@@ -58,10 +58,18 @@ plainwhite:
 # Build settings
 # theme: plainwhite
 remote_theme: samarsault/plainwhite-jekyll
-paginate: 5
-paginate_path: "/page/:num/"
+
+pagination:
+  enabled: true
+  per_page: 10
+  sort_reverse: true
+  sort_field: 'date'
+  title: '.title'
+  trail:
+    before: 5
+    after: 5
 
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
