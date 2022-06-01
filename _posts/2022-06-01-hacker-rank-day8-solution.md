@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacker rank Day 8 Dictionaries and maps 30 days of code solution"
+title:  "Hacker rank 8일차 딕셔너리와 맵 code solution"
 date:   2022-06-01 18:50:30 +0900
 categories: JavaScript
 ---
