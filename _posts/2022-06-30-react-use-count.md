@@ -1,46 +1,22 @@
 ---
 layout: post
-title: "css-flex"
+title: "React - useCount"
 date: 2022-06-30 22:50:30 +0900
 categories: JavaScript
 ---
 
-CSS flex는 레이아웃 배치 전용 기능으로 고안된 것  
-float나 inline-block등을 이용한 기존 방식보다 훨씬 강력하고 편리한 기능
+사전 과제를 하면서 가장 애먹고 있는 부분인 숫자 카운팅...  
+숫자 카운팅 애니메이션을 검색해보니까 많은 결과가 있었다.  
+첫 번째는 jQuery로 작성하는 것  
+두 번째는 React CountUp
+세 번째는 use-count-up
+현재 두 번째와 세 번째 모두 사용해보는 중이고 완성할때 되서야 결정할 듯
 
-## flex
+## react count up
 
-- 컨테이너가 flex에 영향을 받는 전체 공간, 그 안에 있는 아이템들이 flex의 영향을 받아 실질적으로 배치됨
-  ```html
-  <div class="container">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-  </div>
-  ```
-- css에 display: flex를 적용함으로써 적용
-  ```css
-  .container {
-    display: flex;
-  }
-  ```
-- flex-direction을 사용해서 배치 방향을 결정할 수 있음
-  ```css
-  .container {
-    flex-direction: row;
-  }
-  ```
-  - row: 가로 정렬
-  - column: 세로 정렬
-  - row-reverse: 역순으로 가로 정렬
-  - column-reverse: 역순으로 세로 정렬
-- flex-wrap을 사용해 컨테이너에 여유공간이 없을 경우를 설정할 수 있음
-  ```css
-  .container {
-    flex-wrap: nowrap;
-  }
-  ```
-  - nowrap: 줄바꿈 없음
-  - wrap: 줄바꿈
-  - wrap-reverse: 줄바꿈을 하나 아이템을 역순으로 배치(넘치는게 위로 올라감)
+- npm i react-countup 으로 설치하고 import해서 사용
+-
+
+## use count up
+
+- npm i use-count-up 으로 설치하고 import해서 사용
