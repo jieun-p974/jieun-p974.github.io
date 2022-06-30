@@ -1,0 +1,46 @@
+---
+layout: post
+title: "css-flex"
+date: 2022-06-30 22:50:30 +0900
+categories: JavaScript
+---
+
+CSS flex는 레이아웃 배치 전용 기능으로 고안된 것  
+float나 inline-block등을 이용한 기존 방식보다 훨씬 강력하고 편리한 기능
+
+## flex
+
+- 컨테이너가 flex에 영향을 받는 전체 공간, 그 안에 있는 아이템들이 flex의 영향을 받아 실질적으로 배치됨
+  ```html
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+  ```
+- css에 display: flex를 적용함으로써 적용
+  ```css
+  .container {
+    display: flex;
+  }
+  ```
+- flex-direction을 사용해서 배치 방향을 결정할 수 있음
+  ```css
+  .container {
+    flex-direction: row;
+  }
+  ```
+  - row: 가로 정렬
+  - column: 세로 정렬
+  - row-reverse: 역순으로 가로 정렬
+  - column-reverse: 역순으로 세로 정렬
+- flex-wrap을 사용해 컨테이너에 여유공간이 없을 경우를 설정할 수 있음
+  ```css
+  .container {
+    flex-wrap: nowrap;
+  }
+  ```
+  - nowrap: 줄바꿈 없음
+  - wrap: 줄바꿈
+  - wrap-reverse: 줄바꿈을 하나 아이템을 역순으로 배치(넘치는게 위로 올라감)
