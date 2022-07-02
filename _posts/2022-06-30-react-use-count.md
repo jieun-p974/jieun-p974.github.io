@@ -15,8 +15,18 @@ categories: JavaScript
 ## react count up
 
 - npm i react-countup 으로 설치하고 import해서 사용
--
+- <CountUp start={0} end={100}/> 형태로 사용
+- start는 시작 숫자, end는 끝나는 숫자
+- delay값을 줘서 시작하는 타이밍을 조절할 수 있음
+- duration값으로 지속시간 설정가능
+- useEasing으로 Easing을 활성화할 수 있음(재생속도) false를 하면 선형전환(일정한 속도), true를 하면 다른 값으로 설정 가능
+- easingFn에서 재생속도를 세세하게 설정가능 기본은 easeInExpo
 
 ## use count up
 
 - npm i use-count-up 으로 설치하고 import해서 사용
+- <CountUp isCounting start={0} end={100}/> 형태로 사용
+- isCounting으로 시작 정지 설정(기본값은 false)
+- start는 시작하는 숫자, end는 끝나는 숫자
+- duration값으로 지속시간 설정 가능
+- string이나 function을 값으로 가지는 easing으로 재생속도 조절 가능(기본값은 easeOutCubic)
